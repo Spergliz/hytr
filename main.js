@@ -24,4 +24,5 @@ document.getElementById("AC").innerHTML = dist;
 function dist(x1,x2,y1,y2){
     let rise= x2-x1
     let run = y2-y1
+    return Math.sqrt(rise ** 2 + run ** 2);
 }
