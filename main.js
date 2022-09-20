@@ -12,12 +12,13 @@ function bttn() {
 
 
 //trust the process
-
-
+let AB = dist(xA,xB,yA,yB)
+let BC = dist(xB,xC,yB,yC)
+let AC = dist(xA,xC,yA,yC)
 //output 
-document.getElementById("AB").innerHTML = dist;
-document.getElementById("BC").innerHTML = dist;
-document.getElementById("AC").innerHTML = dist;
+document.getElementById("AB").innerHTML = AB;
+document.getElementById("BC").innerHTML = BC;
+document.getElementById("AC").innerHTML = AC;
 }
 
 //function
