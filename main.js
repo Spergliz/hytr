@@ -22,7 +22,7 @@ function bttn() {
   document.getElementById("AC").innerHTML = AC;
   document.getElementById(Perimeter).innerHTML = Perimeter;
 }
-let Perimeter = AB + BC + AC
+let Perimeter = (AB + BC + AC)
 //function
 function dist(x1, x2, y1, y2) {
   let rise = x2 - x1;
